@@ -7,7 +7,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for Calculator App.
  *
- * @Author Carlos Medina
+ * @author Carlos Medina
  */
 public class CalculatorAppTest extends TestCase {
 

@@ -7,7 +7,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for LinkedList.
  *
- * @Author Carlos Medina
+ * @author Carlos Medina
  */
 public class LinkedListTest extends TestCase {
 

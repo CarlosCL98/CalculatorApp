@@ -20,7 +20,7 @@ public class CalculatorApp {
             BufferedReader br = Files.newBufferedReader(Paths.get(currentDir + "/src/main/resources/files/caso2.txt"));
             String line = br.readLine();
             while (line != null) {
-                //list.add(Double.parseDouble(line));
+                list.add(Double.parseDouble(line));
             }
             br.close();
         } catch (IOException ex) {

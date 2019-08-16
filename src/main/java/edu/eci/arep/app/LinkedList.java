@@ -100,7 +100,7 @@ public class LinkedList {
     /**
      * Returns the first node of the LinkedList.
      *
-     * @return Node
+     * @return Node : the first node of the linkedList.
      */
     public Node getFirstNode() {
         return firstNode;
@@ -109,7 +109,7 @@ public class LinkedList {
     /**
      * Returns the last node of the LinkedList.
      *
-     * @return Node
+     * @return Node : the last node of the linkedList.
      */
     public Node getLastNode() {
         return lastNode;
