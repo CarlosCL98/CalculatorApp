@@ -68,7 +68,7 @@ public class LinkedList {
      * Finds and returns the data of the node indicated by the index.
      *
      * @param index of the data to get
-     * @return the data of the node indicated by the index.
+     * @return double : the data of the node indicated by the index.
      */
     public double get(int index) {
         Node node = firstNode;
@@ -82,6 +82,11 @@ public class LinkedList {
         return data;
     }
 
+    /**
+     * Returns the size of the LinkedList.
+     *
+     * @return int : the size of the LinkedList.
+     */
     public int getSize() {
         int sizeCount = 0;
         Node node = firstNode;
@@ -92,19 +97,21 @@ public class LinkedList {
         return sizeCount;
     }
 
+    /**
+     * Returns the first node of the LinkedList.
+     *
+     * @return Node
+     */
     public Node getFirstNode() {
         return firstNode;
     }
 
-    public void setFirstNode(Node firstNode) {
-        this.firstNode = firstNode;
-    }
-
+    /**
+     * Returns the last node of the LinkedList.
+     *
+     * @return Node
+     */
     public Node getLastNode() {
         return lastNode;
-    }
-
-    public void setLastNode(Node lastNode) {
-        this.lastNode = lastNode;
     }
 }
